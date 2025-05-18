@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Entre em Contato</h1>
+            
+            <form class="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+            
+            <div class="icones-contato">
+                <a href="mailto:seuemail@exemplo.com">
+                    <img src="imagens/email-svgrepo-com.svg" alt="Ícone de e-mail" class="icone">
+                </a>
+                <a href="https://www.linkedin.com/in/filipeeidelvein/" target="_blank">
+                    <img src="imagens/linkedin-svgrepo-com.svg" alt="Ícone do LinkedIn" class="icone">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Filipe Fazenda Eidelvein. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
